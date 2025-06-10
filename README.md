@@ -2,26 +2,26 @@
 
 AURA is an intelligent, autonomous research assistant powered by local LLMs through LM Studio. This agent can plan, execute, and synthesize comprehensive research on any topic using web search, document analysis, and iterative reflection.
 
-## 🌟 Features
+##  Features
 
-### 🧠 **Intelligent Planning**
+###  **Intelligent Planning**
 - Automatically generates structured research plans
 - Breaks down complex topics into actionable steps
 - Adapts research direction based on findings
 
-### 🔍 **Multi-Tool Research**
+###  **Multi-Tool Research**
 - **Web Search**: DuckDuckGo API integration for current information
 - **Web Scraping**: Extracts and analyzes content from web sources
 - **PDF Analysis**: Reads and processes PDF documents
 - **Content Synthesis**: Combines findings from multiple sources
 
-### 🤖 **Autonomous Operation**
+###  **Autonomous Operation**
 - Self-directed research execution
 - Progress tracking and status management
 - Iterative reflection and course correction
 - Comprehensive report generation
 
-### 🏠 **Local LLM Integration**
+###  **Local LLM Integration**
 - Works with any LM Studio hosted model
 - OpenAI-compatible API calls
 - Configurable model parameters
@@ -69,7 +69,7 @@ final_report = agent.conduct_research(topic, objective)
 print(final_report)
 ```
 
-## 📋 Requirements
+##  Requirements
 
 Create a `requirements.txt` file:
 ```
@@ -79,7 +79,7 @@ beautifulsoup4>=4.12.2
 lxml>=4.9.3
 ```
 
-## 🎯 How It Works
+##  How It Works
 
 ### 1. **Planning Phase**
 The agent analyzes your research topic and creates a structured plan:
@@ -115,7 +115,7 @@ Final report generation:
 - Conclusions
 - Areas for further research
 
-## ⚙️ Configuration
+##  Configuration
 
 ### LM Studio Setup
 ```python
@@ -147,7 +147,7 @@ def _create_default_plan(self) -> List[ResearchStep]:
     ]
 ```
 
-## 🛠️ Advanced Usage
+##  Advanced Usage
 
 ### Adding Custom Tools
 Extend the agent with your own research tools:
@@ -178,7 +178,7 @@ step = ResearchStep(
 )
 ```
 
-## 📊 Example Output
+## Example Output
 
 The agent generates detailed reports like this:
 
@@ -244,7 +244,7 @@ Search error: Rate limited
 ### Contributing
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📝 Use Cases
+##  Use Cases
 
 ### Academic Research
 - Literature reviews
@@ -264,20 +264,20 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - Comprehensive overviews
 - Educational summaries
 
-## ⚖️ Ethical Considerations
+##  Ethical Considerations
 
 - **Respect robots.txt** and website terms of service
 - **Rate limiting** implemented to avoid overwhelming servers
 - **Source attribution** in all generated reports
 - **Fact verification** recommended for critical decisions
 
-## 🤝 Community & Support
+## Community & Support
 
 - **Issues**: Report bugs or request features via GitHub Issues
 - **Discussions**: Join the conversation in GitHub Discussions
 - **Documentation**: Wiki pages for advanced configuration
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
